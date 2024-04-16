@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <link rel="shortcut icon" type="image/x-icon" href="BBlogoWhite.ico">
+    <style>
+        body {
+    background: #ffffff;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        background-size: 300% 300%;
+        background-image: linear-gradient(-45deg, #ffffff 0%, #ffffff 25%, #ffffff 51%, #d63484 100%);
+        -webkit-animation: AnimateBG 20s ease infinite;
+                animation: AnimateBG 20s ease infinite;
+      }
+      
+      @-webkit-keyframes AnimateBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      @keyframes AnimateBG {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px; /* Adjust the size of your logo */
+    margin-right: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.quiz-list {
+    background-color: #ecf0f3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+    border: 2px solid black;
+}
+
+.quiz-list h2 {
+    margin-top: 0;
+    color: #402b3a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class="quiz-list">
+            <h2>Available Quizzes</h2>
+            <ul>
+                <li>Module 1: Letters and Sounds<br>
+                    <a href="quiz1.html">Quiz 1</a></li><br>
+                <li>Module 2: Vocabulary<br>
+                    <a href="quiz2.html">Quiz 2</a></li><br>
+                <li>Module 3: Imaginative Storytime<br>
+                    <a href="quiz3.html">Quiz 3</a></li><br>
+                <li>Module 4: Numbers and Counting<br>
+                    <a href="quiz4.html">Quiz 4</a></li><br>
+                <li>Module 5: Basic Writing<br>
+                    <a href="quiz5.html">Quiz 5</a></li><br>
+                <li>Module 6: Phonics Playtime<br>
+                    <a href="quiz6.html">Quiz 6</a></li><br>
+                <li>Module 7: Shapes, Colours, and Art<br>
+                    <a href="quiz7.html">Quiz 7</a></li><br>
+                <li>Module 8: Action Words and Story Expressions<br>
+                    <a href="quiz8.html">Quiz 8</a></li><br>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
