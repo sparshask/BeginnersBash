@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    color: #d63484;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Set a value for top to make it sticky */
+    z-index: 100; /* Set a higher z-index to make it appear above other elements */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of your logo */
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d63484;
+}
+
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d63484;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+nav .dropdown-content li {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+}
+
+nav .dropdown-content li a {
+    color: white;
+}
+
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.text{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #d63484;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.bn632-hover {
+    width: 600px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 350px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 150px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn27 {
+    background-image: linear-gradient(
+      to right,
+      rgba(249,187,230),rgba(238,115,196),rgba(199,57,95,1)
+    );
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+  }
+
+/* FOOTER */
+
+footer {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 20px; /* Increase the right margin for spacing */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Add this rule to remove the margin from the last icon */
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.socials i{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
