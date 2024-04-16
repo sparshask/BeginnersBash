@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="logoCSS.css">
+    <link rel="shortcut icon" type="image/x-icon" href="BBlogoWhite.ico">
+    <title>Logo Page</title>
+</head>
+<body>
+  <div class="logo-container">
+    <h2 id="page-logo">
+      <img src="BBlogoWhite.png" alt="Logo" width="250" style="display: block; margin: 0 auto;">
+      <div style="font-size: 50px; color: #402b3a;">Beginners Bash</div>
+    </h1>
+  </div>
+  <script>
+    // Check if the page is redirected
+    if (!sessionStorage.getItem('redirected')) {
+        setTimeout(function() {
+          window.location.href = "landing.html";
+          // Set a flag in sessionStorage to indicate redirection
+          sessionStorage.setItem('redirected', true);
+        }, 3000); // Redirect after 3 seconds
+    }
+  </script> 
+</body>
+</html>
