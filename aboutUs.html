@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="logoTransparent.ico"/>
+    <title>About Us</title>
+    <link rel="shortcut icon" type="image/x-icon" href="BBlogoWhite.ico">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        header {
+    background-color: #ffffff;
+    color: #d63484;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Set a value for top to make it sticky */
+    z-index: 100; /* Set a higher z-index to make it appear above other elements */
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px; /* Adjust the size of your logo */
+    margin-right: 10px;
+}
+
+        main {
+            padding: 40px;
+        }
+
+        .about-section {
+            text-align: center;
+        }
+
+        .about-section h2 {
+            color: #d63484;
+        }
+
+        .text-content {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            text-align: justify;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery img {
+            max-width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            margin-top: 50px;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Set background color with transparency */
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="BBlogoWhite.png" alt="Logo">
+            <h1>Beginner's Bash</h1>
+        </div>
+        </header>
+
+    <main>
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <div class="text-content">
+                <p>Beginners Bash is a pioneering educational institution aimed at providing children aged 3 to 8 with comprehensive English language learning experiences. Established with a commitment to nurturing foundational language skills in young learners, Beginners Bash offers both in-person classes and free online resources through its dedicated website.</p>
+                <p>At Beginners Bash, we believe in the power of interactive and experiential learning to engage young minds and facilitate language acquisition. Our curriculum is designed to be immersive, incorporating a variety of hands-on activities, games, songs, and storytelling to make the learning process enjoyable and effective.</p>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <h2>Our Team</h2>
+            <div class="image-gallery">
+                <img src="me.jpeg" alt="Team Member 1">
+                <img src="sonal.jpeg" alt="Team Member 2">
+                <br>
+                <img src="suvina.jpeg" alt="Team Member 3">
+                <img src="tamanna.jpeg" alt="Team Member 4">
+            </div>
+        </div>
+        <footer>
+            <div class="social-icons">
+                <!-- Twitter -->
+                <a href="https://twitter.com/BBash78615" style="color: inherit;">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+              
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/beginnersbash/" style="color: inherit;">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+    
+                <!-- Facebook -->
+                <a href="https://m.facebook.com/groups/" style="color: inherit;">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+    
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/channel/UCAgv8qUjmk2RbPQPVLOBOtg" style="color: inherit;">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+    
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/feed/" style="color: inherit;">
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                    </span>
+                </a>
+            </div>
+            <p>&copy; Beginners Bash</p>
+        </footer>
+    </main>
+
+</body>
+</html>
